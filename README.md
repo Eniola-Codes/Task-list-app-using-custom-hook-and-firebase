@@ -1,74 +1,32 @@
-# End Result
+# Bucket List application
 
-click link : https://tasklist-with-firebase-by-eniola.netlify.app/
+A Task list application which you can use to set activities or task you want to do in the future.
 
-# Getting Started with Create React App
+**End Result**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Click Link :  https://tasklist-with-firebase-by-eniola.netlify.app/
+# Description
 
-## Available Scripts
+**Details**
 
-In the project directory, you can run:
+My task list application is used to set activities which you would love to do in the future.
 
-### `npm start`
+The application takes on a single input from the user which is the task 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![Form](https://github.com/Eniola-Codes/Bucket-List-App/blob/main/src/asset/bucketform.png?raw=true)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+On the other hand, when you submit a valid value, an item is added to the item list
 
-### `npm test`
+**Technologies**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Technologies i used to build this are React.js, css and firebase
 
-### `npm run build`
+I used React.js framework to bootstrap this project because of the below functionalities : 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Seperation of concerns (Having leaner files and components by breaking down the code into smaller parts)
+- Prop drilling to pass some data from component to component with ease.
+- Css modules which prevent clashing of classnames around components therefore avoiding unwanted results
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Installation and Running
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+git clone or pull the project using your terminal, open the project folder on your local laptop in a code editor and run "npm start" in your editors terminal.
